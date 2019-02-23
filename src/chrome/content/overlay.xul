@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<overlay id="xpt-browser-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<commandset>
+	<command id="xpt_openwindow" oncommand="XULPeriodicTable.openWindow();"/>
+</commandset>
+
+<script src="overlay.js"/>
+
+<!-- ==== Toolbar Button menu ==== -->
+<toolbarpalette id="BrowserToolbarPalette">
+	<toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional"
+                   id="xpt-toolbar-button"
+                   label="XUL Periodic Table"
+                   style="list-style-image: url('images/red-apple.png');"
+                   command="xpt_openwindow">
+	</toolbarbutton>
+</toolbarpalette>
+
+</overlay>

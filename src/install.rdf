@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:id>xulperiodictable@franklindm</em:id>
+        <em:name>XUL Periodic Table</em:name>
+        <em:version>dev-build</em:version>
+        <em:description>A collection of XUL demos.</em:description>
+        <em:type>2</em:type>
+        <em:creator>FranklinDM</em:creator>
+        <!-- optional items -->
+        <em:homepageURL>https://franklindm.github.io/</em:homepageURL>
+        <em:optionsURL>chrome://periodictable/content/top.xul</em:optionsURL>
+
+        <em:contributor>Alice Corbin (http://www.hevanet.com/acorbin/xul/top.xul)</em:contributor>
+
+        <em:targetApplication>
+            <!-- Pale Moon -->
+            <Description>
+                <em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+                <em:minVersion>20.0.0</em:minVersion>
+                <em:maxVersion>28.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <!-- Applications using Thunderbird GUID -->
+            <Description>
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>20.0.0</em:minVersion>
+                <em:maxVersion>50.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <!-- Applications using Firefox GUID -->
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>38.0.0</em:minVersion>
+                <em:maxVersion>56.*</em:maxVersion>
+                <em:basilisk>true</em:basilisk>
+            </Description>
+        </em:targetApplication>
+        <em:targetApplication>
+            <!-- SeaMonkey -->
+            <Description>
+                <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+                <em:minVersion>2.0</em:minVersion>
+                <em:maxVersion>2.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>
