@@ -95,7 +95,7 @@
     <row />
     <row />
     <row />
-  </rows>>
+  </rows>
 
   <columns>
     <column flex="1">

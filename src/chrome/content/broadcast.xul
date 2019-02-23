@@ -148,13 +148,13 @@ XUL Broadcasters and Observers (and Commands)
            <checkbox label="Check1" observes="check1-cmd" />
            <checkbox label="Check2" observes="check2-cmd" />
            <checkbox label="Check3" observes="check3-cmd" />
-      </vbox>>
+      </vbox>
 
       <radiogroup flex="1" >
            <radio label="Radio1"  observes="radio1-cmd" />
            <radio label="Radio2"  observes="radio2-cmd" />
            <radio label="Radio3"  observes="radio3-cmd" />
-      </radiogroup>>
+      </radiogroup>
   </hbox>
 
 </groupbox>
