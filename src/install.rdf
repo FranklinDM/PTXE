@@ -9,7 +9,6 @@
         <em:creator>FranklinDM</em:creator>
         <!-- optional items -->
         <em:homepageURL>https://franklindm.github.io/</em:homepageURL>
-        <em:optionsURL>chrome://periodictable/content/top.xul</em:optionsURL>
 
         <em:contributor>Alice Corbin (http://www.hevanet.com/acorbin/xul/top.xul)</em:contributor>
 
