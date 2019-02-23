@@ -106,23 +106,23 @@ function setText(textID,val)
   <vbox> 
     <button flex="1" label="No Image" 
        oncommand="setText('label-text','A button with a label only');" />
-    <button label="Left" image="images/betty_boop.xbm" 
+    <button label="Left" image="images/betty_boop.png" 
        oncommand="setText('label-text','A button with both an image and a label');" />
-    <button label="Right" image="images/betty_boop.xbm" dir="reverse" 
+    <button label="Right" image="images/betty_boop.png" dir="reverse" 
        oncommand="setText('label-text','A button with the image to the right of the label');"/>
   </vbox>
   <vbox> 
-    <button label="Above" image="images/betty_boop.xbm" 
+    <button label="Above" image="images/betty_boop.png" 
             orient="vertical" dir="forward" 
        oncommand="setText('label-text','A button with the image above the label');"/>
-    <button label="Below" image="images/betty_boop.xbm" 
+    <button label="Below" image="images/betty_boop.png" 
             orient="vertical" dir="reverse" 
        oncommand="setText('label-text','A button with the image below the label');"/>
   </vbox>
   <vbox> 
     <button flex="1"
        oncommand="setText('label-text','A button with neither image nor label');" />
-    <button image="images/betty_boop.xbm"
+    <button image="images/betty_boop.png"
        oncommand="setText('label-text','A button with an image only');" />
     <button
        oncommand="setText('label-text','A button with a multi-line, wrapped label');">

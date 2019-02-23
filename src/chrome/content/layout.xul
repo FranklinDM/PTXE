@@ -124,48 +124,48 @@
  <groupbox>
   <caption label="alignment" />
   <hbox align="start">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="alignment" />
     </button>
-    <button label="is" image="images/betty_boop.xbm" />
+    <button label="is" image="images/betty_boop.png" />
     <button label="start" />
   </hbox>
   <hbox align="center">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="alignment" />
     </button>
-    <button label="is"  image="images/betty_boop.xbm" />
+    <button label="is"  image="images/betty_boop.png" />
     <button label="center" />
   </hbox>
   <hbox align="end">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="alignment" />
     </button>
-    <button label="is" image="images/betty_boop.xbm" />
+    <button label="is" image="images/betty_boop.png" />
     <button label="end" />
   </hbox>
   <hbox align="baseline">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="alignment" />
     </button>
-    <button label="is" image="images/betty_boop.xbm" />
+    <button label="is" image="images/betty_boop.png" />
     <button label="baseline" />
   </hbox>
   <hbox align="stretch">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="alignment" />
     </button>
-    <button label="is" image="images/betty_boop.xbm" />
+    <button label="is" image="images/betty_boop.png" />
     <button label="stretch" />
   </hbox>
  </groupbox>
@@ -173,23 +173,23 @@
  <groupbox orient="horizontal">
   <caption label="equality" />
   <vbox equalsize="always">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="equalsize" />
        <label value="attribute" />
     </button>
-    <button label="is" image="images/betty_boop.xbm" />
+    <button label="is" image="images/betty_boop.png" />
     <button label="always" />
   </vbox>
   <vbox equalsize="never">
-    <button label="Here" image="images/betty_boop.xbm" orient="vertical" />
+    <button label="Here" image="images/betty_boop.png" orient="vertical" />
     <button orient="vertical">
        <label value="the" />
        <label value="equalsize" />
        <label value="attribute" />
     </button>
-    <button label="is" image="images/betty_boop.xbm" />
+    <button label="is" image="images/betty_boop.png" />
     <button label="never" />
   </vbox>
  </groupbox>

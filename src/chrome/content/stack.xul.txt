@@ -24,7 +24,7 @@ function setDeck(index)
 <groupbox > 
 <caption label="stack" />
   <stack >
-     <image id="betty-image"      src="images/betty_boop.xbm"  />
+     <image id="betty-image"      src="images/betty_boop.png"  />
      <image src="images/BC-R.jpg"  />
      <label value="Chicks" style="font-weight:bold" top="80px" />
      <button image="images/chick.png"  left="60px" top="60"
@@ -35,7 +35,7 @@ function setDeck(index)
 <groupbox > 
 <caption label="deck" />
   <deck id="my-deck">
-     <image id="betty-image"      src="images/betty_boop.xbm"  />
+     <image id="betty-image"      src="images/betty_boop.png"  />
      <image id="blindchick-image" src="images/BC-R.jpg"        />
      <label value="Chicks" style="font-weight:bold" top="80px" />
      <button image="images/chick.png"  left="60px" top="60"

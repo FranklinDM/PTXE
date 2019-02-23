@@ -108,22 +108,22 @@ function setText(textID,val)
   <vbox flex="1">
     <description  value="These have images." />
     <checkbox label="Left"  
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A checkbox to the left of the label');" />
     <checkbox label="Right" dir="reverse"  
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A checkbox to the right of the label');"/>
     <checkbox label="Above" orient="vertical" dir="forward"  
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A checkbox above the label');"/>
     <checkbox label="Below" orient="vertical" dir="reverse" 
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A checkbox below the label');"/>
     <checkbox 
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A checkbox with no label');" />
     <checkbox
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','Another checkbox with no label');" />
     <separator flex="1" />
     <description  id="image-text" value="(no input)" />

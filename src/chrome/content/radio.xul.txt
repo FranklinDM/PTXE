@@ -88,22 +88,22 @@ function setText(textID,val)
     <radiogroup flex="1">
       <description value="These radiobuttons show images."/>
       <radio label="Left"
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A radiobutton to the left of the label');" />
       <radio label="Right" dir="reverse" 
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A radiobutton to the right of the label');"/>
       <radio label="Above" orient="vertical" dir="forward" 
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A radiobutton above the label');"/>
       <radio label="Below" orient="vertical" dir="reverse" 
-               src="images/betty_boop.xbm" 
+               src="images/betty_boop.png" 
       oncommand="setText('image-text','A radiobutton below the label');"/>
       <radio 
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','A radiobutton with no label');" />
       <radio
-              src="images/betty_boop.xbm" 
+              src="images/betty_boop.png" 
        oncommand="setText('image-text','Another radiobutton with no label');" />
       <separator flex="1" />
       <description  id="image-text" value="(no input)" />

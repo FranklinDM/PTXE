@@ -37,7 +37,7 @@ function imagize(btnID,imageID)
       <toolbarbutton label="Button" accesskey="B" oncommand="alert('Ouch!');"/>
       <toolbarbutton label="Check" type="checkbox" />
       <toolbarbutton label="Disabled" disabled="true"/>
-      <toolbarbutton label="Image" image="images/betty_boop.xbm"/>
+      <toolbarbutton label="Image" image="images/betty_boop.png"/>
     </toolbar>
 
     <toolbar id="another-toolbar" >
@@ -91,9 +91,9 @@ function imagize(btnID,imageID)
       <menu label="Images" accesskey="I" >
         <menupopup>
            <menuitem label="Left" 
-                     class="menuitem-iconic" src="images/betty_boop.xbm" />
+                     class="menuitem-iconic" src="images/betty_boop.png" />
            <menuitem label="Right" dir="reverse"
-                     class="menuitem-iconic" src="images/betty_boop.xbm" />
+                     class="menuitem-iconic" src="images/betty_boop.png" />
            <menuitem label="None" />
         </menupopup>
       </menu>
@@ -178,7 +178,7 @@ function imagize(btnID,imageID)
   </toolbox>
   <box flex="1" id="canvas" align="center">
      <spacer flex="1" />
-     <image id="betty-image"      src="images/betty_boop.xbm"  />
+     <image id="betty-image"      src="images/betty_boop.png"  />
      <spacer flex="1" />
      <image id="chick-image"      src="images/chick.png"       />
      <spacer flex="1" />

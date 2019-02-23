@@ -36,12 +36,12 @@
   <caption label="Betty Boop" />
   <hbox>
     <vbox align="center">
-      <image src="images/betty_boop.xbm" />
+      <image src="images/betty_boop.png" />
       <label value="natural-sized image" />
     </vbox>
 
     <vbox align="center">
-      <image style="width: 200px; height: 200px" src="images/betty_boop.xbm" />
+      <image style="width: 200px; height: 200px" src="images/betty_boop.png" />
       <label value="enlarged image" />
     </vbox>
   </hbox>
