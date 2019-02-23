@@ -4,9 +4,7 @@
 <window title="XUL Periodic Table"
         xmlns:html="http://www.w3.org/1999/xhtml"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-        persist="screenX screenY width height sizemode"
-        fullscreenbutton="true" flex="1" resizeable="true"
-        id="xpt-window" width="640" height="480">
+        id="xpt-window">
 
 <script>
 <![CDATA[
