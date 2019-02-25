@@ -43,9 +43,9 @@ function imagize(btnID,imageID)
     <toolbar id="another-toolbar" >
       <label value="This is another toolbar:" />
       <toolbarseparator />
-      <toolbarbutton label="Radio1" type="radio" name="radio" />
-      <toolbarbutton label="Radio2" type="radio" name="radio" />
-      <toolbarbutton label="Radio3" type="radio" name="radio" />
+      <toolbarbutton label="Radio1" type="radio" name="radio" group="rad" />
+      <toolbarbutton label="Radio2" type="radio" name="radio" group="rad"/>
+      <toolbarbutton label="Radio3" type="radio" name="radio" group="rad"/>
     </toolbar>
 
     <menubar id="my-menubar">
