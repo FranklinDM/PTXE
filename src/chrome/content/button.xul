@@ -144,6 +144,27 @@ function setText(textID,val)
   </hbox>
  </groupbox>
 
+ <groupbox>
+  <caption label="These buttons act like radio buttons. Only one button in the group can be on at once." />
+  <hbox>
+    <button flex="1" label="Animal" group="rad" type="radio"
+                     oncommand="setText('radio-text','Animal');" />
+    <button flex="1" label="Bear" group="rad" type="radio"
+                     oncommand="setText('radio-text','Bear');" />
+    <button flex="1" label="Cat" group="rad" type="radio"
+                     oncommand="setText('radio-text','Cat');" />
+    <button flex="1" label="Dog" group="rad" type="radio"
+                     oncommand="setText('radio-text','Dog');" />
+    <button flex="1" label="Deer" group="rad" type="radio"
+                     oncommand="setText('radio-text','Deer');" />
+    <button flex="1" label="Fish" group="rad" type="radio"
+                     oncommand="setText('radio-text','Fish');" />
+  </hbox>
+  <hbox pack="center">
+    <description  id="radio-text" value="(no input yet)" />
+  </hbox>
+ </groupbox>
+
 </vbox>
 
 </window>
