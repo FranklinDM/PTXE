@@ -5,12 +5,6 @@
         xmlns:html="http://www.w3.org/1999/xhtml"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
-<script>
-<![CDATA[
-
-]]>
-</script>
-
 <description><html:h1>XUL Popups</html:h1></description>
 
 <popupset>
@@ -152,6 +146,82 @@
        <button label="Overlap"  popup="overlap" />
        <button label="At Pointer" popup="at_pointer" />
        <button label="After Pointer" popup="after_pointer" />
+    </row>
+  </rows>
+</grid>
+</groupbox>
+
+<popupset>
+  <panel id="panel_start_before" position="start_before" type="arrow">
+     <label value="To the left of the button" />
+     <label value="aligned on the top" />
+  </panel>
+  <panel id="panel_before_start" position="before_start" type="arrow">
+     <label value="Above the button" />
+     <label value="aligned on the left" />
+  </panel>
+  <panel id="panel_before_end" position="before_end" type="arrow">
+     <label value="Above the button" />
+     <label value="aligned on the right" />
+  </panel>
+  <panel id="panel_end_before" position="end_before" type="arrow">
+     <label value="To the right of the button" />
+     <label value="aligned on the top" />
+  </panel>
+  <panel id="panel_start_after" position="start_after" type="arrow">
+     <label value="To the left of the button" />
+     <label value="aligned on the bottom" />
+  </panel>
+  <panel id="panel_after_start" position="after_start" type="arrow">
+     <label value="Below the button" />
+     <label value="aligned on the left" />
+  </panel>
+  <panel id="panel_after_end" position="after_end" type="arrow">
+     <label value="Below the button" />
+     <label value="aligned on the right" />
+  </panel>
+  <panel id="panel_end_after" position="end_after" type="arrow">
+     <label value="To the right of the button" />
+     <label value="aligned on the bottom" />
+  </panel>
+  <panel id="panel_overlap" position="overlap" type="arrow">
+     <label value="On top of the button" />
+  </panel>
+  <panel id="panel_at_pointer" position="at_pointer" type="arrow">
+     <label value="At the pointer" />
+  </panel>
+  <panel id="panel_after_pointer" position="after_pointer" type="arrow">
+     <label value="Below the button" />
+     <label value="aligned with the pointer" />
+  </panel>
+</popupset>
+
+<groupbox>
+<caption label="positions for panel popups" />
+<grid>
+  <columns>
+    <column flex="1" />
+    <column flex="1" />
+    <column flex="1" />
+    <column flex="1" />
+  </columns>
+  <rows>
+    <row>
+       <button label="Start Before" popup="panel_start_before" />
+       <button label="Before Start" popup="panel_before_start" />
+       <button label="Before End" popup="panel_before_end" />
+       <button label="End Before" popup="panel_end_before" />
+    </row>
+    <row>
+       <button label="Start After"  popup="panel_start_after" />
+       <button label="After Start" popup="panel_after_start" />
+       <button label="After End" popup="panel_after_end" />
+       <button label="End After" popup="panel_end_after" />
+    </row>
+    <row>
+       <button label="Overlap"  popup="panel_overlap" />
+       <button label="At Pointer" popup="panel_at_pointer" />
+       <button label="After Pointer" popup="panel_after_pointer" />
     </row>
   </rows>
 </grid>
