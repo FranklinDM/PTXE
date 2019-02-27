@@ -8,58 +8,58 @@
 <description><html:h1>XUL Popups</html:h1></description>
 
 <popupset>
-  <popup id="contextpopup">
+  <menupopup id="contextpopup">
    <menuitem label="This is a context popup" />
-  </popup>
+  </menupopup>
 
-  <popup id="popupmenu">
+  <menupopup id="popupmenu">
    <menuitem label="Pearl"   />
    <menuitem label="Aramis"  />
    <menuitem label="Yakima"  />
-  </popup>
+  </menupopup>
 
-  <popup id="start_before" position="start_before">
+  <menupopup id="start_before" position="start_before">
      <menuitem label="To the left of the button" />
      <menuitem label="aligned on the top" />
-  </popup>
-  <popup id="before_start" position="before_start">
+  </menupopup>
+  <menupopup id="before_start" position="before_start">
      <menuitem label="Above the button" />
      <menuitem label="aligned on the left" />
-  </popup>
-  <popup id="before_end" position="before_end">
+  </menupopup>
+  <menupopup id="before_end" position="before_end">
      <menuitem label="Above the button" />
      <menuitem label="aligned on the right" />
-  </popup>
-  <popup id="end_before" position="end_before">
+  </menupopup>
+  <menupopup id="end_before" position="end_before">
      <menuitem label="To the right of the button" />
      <menuitem label="aligned on the top" />
-  </popup>
-  <popup id="start_after" position="start_after">
+  </menupopup>
+  <menupopup id="start_after" position="start_after">
      <menuitem label="To the left of the button" />
      <menuitem label="aligned on the bottom" />
-  </popup>
-  <popup id="after_start" position="after_start">
+  </menupopup>
+  <menupopup id="after_start" position="after_start">
      <menuitem label="Below the button" />
      <menuitem label="aligned on the left" />
-  </popup>
-  <popup id="after_end" position="after_end">
+  </menupopup>
+  <menupopup id="after_end" position="after_end">
      <menuitem label="Below the button" />
      <menuitem label="aligned on the right" />
-  </popup>
-  <popup id="end_after" position="end_after">
+  </menupopup>
+  <menupopup id="end_after" position="end_after">
      <menuitem label="To the right of the button" />
      <menuitem label="aligned on the bottom" />
-  </popup>
-  <popup id="overlap" position="overlap">
+  </menupopup>
+  <menupopup id="overlap" position="overlap">
      <menuitem label="On top of the button" />
-  </popup>
-  <popup id="at_pointer" position="at_pointer">
+  </menupopup>
+  <menupopup id="at_pointer" position="at_pointer">
      <menuitem label="At the pointer" />
-  </popup>
-  <popup id="after_pointer" position="after_pointer">
+  </menupopup>
+  <menupopup id="after_pointer" position="after_pointer">
      <menuitem label="Below the button" />
      <menuitem label="aligned with the pointer" />
-  </popup>
+  </menupopup>
 
 </popupset>
 
