@@ -165,6 +165,33 @@ function setText(textID,val)
   </hbox>
  </groupbox>
 
+ <hbox>
+ <groupbox flex="1">
+  <caption label="This button can be in two states. Similar to a checkbox." />
+  <button  flex="1" label="Checkbutton" type="checkbox"/>
+ </groupbox>
+
+ <groupbox flex="1">
+   <caption label="This button opens a popup but uses a panel element." />
+     <button flex="1" type="panel" label="Panel">
+       <panel>
+        <vbox>
+          <description value="An update is required to continue using this extension."/>
+          <hbox>
+            <button label="Update now"/>
+            <button label="Remind me later"/>
+          </hbox>
+        </vbox>
+       </panel>
+     </button>
+ </groupbox>
+ </hbox>
+ 
+ <groupbox flex="1">
+  <caption label="This button will fire its command event repeatedly while the mouse button is held down. " />
+  <button  flex="1" label="LOG SPAM" type="repeat" oncommand="console.log('LOG SPAM');"/>
+ </groupbox>
+ 
 </vbox>
 
 </window>
