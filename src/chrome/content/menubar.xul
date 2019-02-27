@@ -106,20 +106,50 @@ function imagize(btnID,imageID)
     </menubar>
 
     <menubar id="back-menubar" dir="reverse">
-      <menu label="Menubar" />
-      <menu label="with" />
-      <menu label="its"  />
-      <menu label="grippy"  />
+      <menu label="Menubar">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="with">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="its">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="grippy">
+        <menupopup>
+        </menupopup>
+      </menu>
       <spacer flex="1" />
-      <menu label="here->"  />
+      <menu label="here->">
+        <menupopup>
+        </menupopup>
+      </menu>
     </menubar>
 
     <menubar id="another-menubar" grippyhidden="true">
-      <menu label="Menubar" />
-      <menu label="with" />
-      <menu label="its"  />
-      <menu label="grippy"  />
-      <menu label="hidden"  />
+      <menu label="Menubar">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="with">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="its">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="grippy">
+        <menupopup>
+        </menupopup>
+      </menu>
+      <menu label="hidden">
+        <menupopup>
+        </menupopup>
+      </menu>
     </menubar>
   </toolbox>
 </groupbox>
@@ -130,17 +160,17 @@ function imagize(btnID,imageID)
 
     <toolbar id="working-toolbar" >
       <toolbarbutton label="Color:" />
-      <toolbarbutton type="radio" name="color" image="images/red_apple.png" 
+      <toolbarbutton type="radio" name="color" image="images/red_apple.png" group="color"
                      oncommand="colorize('background-color:red');" />
-      <toolbarbutton type="radio" name="color" image="images/yellow_apple.png" 
+      <toolbarbutton type="radio" name="color" image="images/yellow_apple.png" group="color"
                      oncommand="colorize('background-color:yellow');"/>
-      <toolbarbutton type="radio" name="color" image="images/green_apple.png" 
+      <toolbarbutton type="radio" name="color" image="images/green_apple.png" group="color"
                      oncommand="colorize('background-color:green');"/>
-      <toolbarbutton type="radio" name="color" image="images/cyan_apple.png" 
+      <toolbarbutton type="radio" name="color" image="images/cyan_apple.png" group="color"
                      oncommand="colorize('background-color:cyan');" />
-      <toolbarbutton type="radio" name="color" image="images/blue_apple.png" 
+      <toolbarbutton type="radio" name="color" image="images/blue_apple.png" group="color"
                      oncommand="colorize('background-color:blue');" />
-      <toolbarbutton type="radio" name="color" image="images/magenta_apple.png" 
+      <toolbarbutton type="radio" name="color" image="images/magenta_apple.png" group="color"
                      oncommand="colorize('background-color:magenta');" />
     </toolbar>
 
