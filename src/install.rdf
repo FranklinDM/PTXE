@@ -10,7 +10,7 @@
         <!-- optional items -->
         <em:homepageURL>https://franklindm.github.io/</em:homepageURL>
 
-        <em:contributor>Alice Corbin (http://www.hevanet.com/acorbin/xul/top.xul)</em:contributor>
+        <em:contributor>Ali Corbin (https://github.com/alijc/xul-periodic-table)</em:contributor>
 
         <em:targetApplication>
             <!-- Pale Moon -->
