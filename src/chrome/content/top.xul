@@ -42,7 +42,7 @@ function setFrame()
       <listitem value="splitter.xul"      label="Splitters" />
       <listitem value="stack.xul"         label="Stacks and Decks" />
       <listitem value="tab.xul"           label="Tabs" />
-      <listitem value="textbox.xul"       label="TextBoxes" />
+      <listitem value="textbox.xul"       label="Textboxes" />
       <listitem value="tree-simple.xul"   label="Trees, Simple" />
       <listitem value="tree-nested.xul"   label="Trees, Nested" />
     </listbox>

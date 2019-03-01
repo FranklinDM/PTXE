@@ -21,6 +21,14 @@ function setText(textBoxID)
 
 <vbox flex="1" style="overflow: auto" >
 
+   <hbox  align="center">
+      <label style="width:10em" value="Input:"  />
+      <description id="result" >
+         none yet
+      </description>
+   </hbox>
+   <hbox>
+<vbox>
    <hbox align="center">
       <label style="width:10em" value="Default:"/>
       <textbox id="default" oninput="setText('default');" />
@@ -50,14 +58,40 @@ function setText(textBoxID)
       <textbox id="multiline" multiline="true" rows="7" cols="20"
                oninput="setText('multiline');" />
    </hbox>
-
-   <hbox  align="center">
-      <label style="width:10em" value="Input:"  />
-      <description id="result" >
-         none yet
-      </description>
+   </vbox>
+   <vbox>
+   <hbox align="center">
+      <label style="width:10em" value="Multiline (spellcheck):"  />
+      <textbox id="multilinespell" multiline="true" rows="7" cols="20" spellcheck="true"
+               oninput="setText('multilinespell');" />
    </hbox>
-
+   <hbox align="center">
+      <label style="width:10em" value="Click selects all:"  />
+      <textbox id="clicksel" clickSelectsAll="true" value="Dummy text"
+               oninput="setText('clicksel');" />
+   </hbox>
+   <hbox align="center">
+      <label style="width:10em" value="Number (spinbuttons):"  />
+      <textbox id="numberspin" type="number"
+               oninput="setText('numberspin');" onchange="setText('numberspin');" />
+   </hbox>
+   <hbox align="center">
+      <label style="width:10em" value="Number:"  />
+      <textbox id="number" type="number" hidespinbuttons="true"
+               onchange="setText('number');" />
+   </hbox>
+   <hbox align="center">
+      <label style="width:10em" value="Placeholder:"  />
+      <textbox id="placeholder" placeholder="This text will be gone when you type!"
+               oninput="setText('placeholder');" />
+   </hbox>
+   <hbox align="center">
+      <label style="width:10em" value="Search:"  />
+      <textbox id="search" placeholder="Search now!" type="search"
+               oninput="setText('search');" />
+   </hbox>
+</vbox>
+</hbox>
 </vbox>
 
 </window>
