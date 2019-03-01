@@ -1,3 +1,20 @@
+01 March 2019
+
+Added date and time pickers to XUL Pickers example
+Added panels to XUL Popups example
+Added buttons of types 'checkbox', 'radio', 'panel', and 'repeat' to XUL Buttons example
+Added a note in XUL Cropping example
+Added group attribute to radio toolbar buttons
+Added more controls to XUL Textboxes example
+
+Replaced use of <popup> with <menupopup>
+The popup element has been deprecated since Gecko 2. Use the menupopup element instead.
+
+Use view-source: instead of maintaining separate .txt source files
+Fixed examples that were broken because of changes to the platform
+
+---------------------------------
+
 15 March 2003
 
 Changed the encoding in the scrolling example to show French characters.
