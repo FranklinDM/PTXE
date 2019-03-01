@@ -17,11 +17,13 @@ function setText()
 ]]>
 </script>
 
-<description><html:h1>XUL Colorpickers</html:h1></description>
+<description><html:h1>XUL Pickers</html:h1></description>
 
 <vbox flex="1" style="overflow: auto">
- <hbox >
-
+<hbox>
+ <hbox>
+<groupbox>
+<caption label="Colorpickers" />
   <groupbox>
   <caption label="default colorpicker" />
    <colorpicker id="my-colorpicker" onselect="setText();" />
@@ -35,7 +37,35 @@ function setText()
    <description value="to select a color" />
    <colorpicker  type="button"  palettename="standard" />
   </groupbox>
-
+</groupbox>
  </hbox>
+ <hbox>
+<groupbox>
+<caption label="Date and Time Pickers" />
+<hbox>
+<groupbox>
+<caption label="Editable" />
+    <datepicker/>
+    <timepicker/>
+    <datepicker type="popup"/>
+    <datepicker type="grid"/>
+</groupbox>
+<groupbox>
+<caption label="Read-only" />
+    <datepicker readonly="true"/>
+    <timepicker readonly="true"/>
+    <datepicker readonly="true" type="popup"/>
+    <datepicker type="grid" readonly="true"/>
+</groupbox>
+<groupbox>
+<caption label="Disabled" />
+    <datepicker disabled="true"/>
+    <timepicker disabled="true"/>
+    <datepicker type="grid" disabled="true"/>
+</groupbox>
+</hbox>
+</groupbox>
+ </hbox>
+</hbox>
 </vbox>
 </window>

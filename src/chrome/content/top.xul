@@ -28,7 +28,7 @@ function setFrame()
       <listitem value="layout.xul"        label="Box Layout" selected="true" />
       <listitem value="button.xul"        label="Buttons" />
       <listitem value="checkbox.xul"      label="Checkboxes" />
-      <listitem value="colorpicker.xul"   label="Colorpickers" />
+      <listitem value="colorpicker.xul"   label="Colorpickers, etc." />
       <listitem value="cropping.xul"      label="Cropping" />
       <listitem value="grid.xul"          label="Grids" />
       <listitem value="image.xul"         label="Images" />
