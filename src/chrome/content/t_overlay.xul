@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<overlay id="xpt-browser-overlay"
+<overlay id="xpt-mail-overlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <commandset>
         <command id="xpt_openwindow"
@@ -15,9 +15,9 @@
                        command="xpt_openwindow"/>
     </toolbarpalette>
     <!-- Tools Menu: Menu Item -->
-    <menupopup id="mailContext">
+    <menupopup id="taskPopup">
+        <menuseparator id="xptSeparator"/>
         <menuitem id="menu_xpt"
-                  insertafter="devToolsSeparator"
                   label="XUL Periodic Table"
                   accesskey="X"
                   command="xpt_openwindow"/>
