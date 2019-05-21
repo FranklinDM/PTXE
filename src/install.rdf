@@ -2,7 +2,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
         <em:id>xulperiodictable@franklindm</em:id>
-        <em:name>XUL Periodic Table</em:name>
+        <em:name>Periodic Table of XUL Elements</em:name>
         <em:version>dev-build</em:version>
         <em:description>A collection of XUL demos.</em:description>
         <em:type>2</em:type>
@@ -10,7 +10,7 @@
         <!-- optional items -->
         <em:homepageURL>https://franklindm.github.io/</em:homepageURL>
 
-        <em:contributor>Ali Corbin (https://github.com/alijc/xul-periodic-table)</em:contributor>
+        <em:contributor>Alice Corbin (https://github.com/alijc/xul-periodic-table)</em:contributor>
 
         <em:targetApplication>
             <!-- Pale Moon -->
