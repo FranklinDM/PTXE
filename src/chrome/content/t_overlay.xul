@@ -11,7 +11,7 @@
         <toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional"
                        id="xpt-toolbar-button"
                        label="XUL Periodic Table"
-                       style="list-style-image: url('images/toolbar-icon.png');"
+                       style="list-style-image: url('images/toolbar-icon.svg');"
                        command="xpt_openwindow"/>
     </toolbarpalette>
     <!-- Tools Menu: Menu Item -->
