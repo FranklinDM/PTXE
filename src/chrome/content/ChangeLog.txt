@@ -1,3 +1,9 @@
+15 June 2019
+
+Added a "Refresh Skins" button to main page
+
+---------------------------------
+
 01 March 2019
 
 Added date and time pickers to XUL Pickers example

@@ -19,33 +19,42 @@ function setFrame()
   document.getElementById("source-frame").setAttribute("src", newSrc);
 }
 
+function refreshSkins()
+{
+  Components.classes["@mozilla.org/chrome/chrome-registry;1"].getService(
+    Components.interfaces.nsIXULChromeRegistry).refreshSkins();
+}
+
 ]]>
 </script>
 
  <hbox flex="1">
-    <listbox id="working-list" style="width:10em" 
-             onselect="setFrame();">
-      <listitem value="layout.xul"        label="Box Layout" selected="true" />
-      <listitem value="button.xul"        label="Buttons" />
-      <listitem value="checkbox.xul"      label="Checkboxes" />
-      <listitem value="colorpicker.xul"   label="Colorpickers, etc." />
-      <listitem value="cropping.xul"      label="Cropping" />
-      <listitem value="grid.xul"          label="Grids" />
-      <listitem value="image.xul"         label="Images" />
-      <listitem value="label.xul"         label="Labels" />
-      <listitem value="list.xul"          label="Lists" />
-      <listitem value="menubar.xul"       label="Menubars, etc." />
-      <listitem value="popup.xul"         label="Popups" />
-      <listitem value="progressmeter.xul" label="Progressmeters" />
-      <listitem value="radio.xul"         label="Radiobuttons" />
-      <listitem value="scrolling.xul"     label="Scrolling" />
-      <listitem value="splitter.xul"      label="Splitters" />
-      <listitem value="stack.xul"         label="Stacks and Decks" />
-      <listitem value="tab.xul"           label="Tabs" />
-      <listitem value="textbox.xul"       label="Textboxes" />
-      <listitem value="tree-simple.xul"   label="Trees, Simple" />
-      <listitem value="tree-nested.xul"   label="Trees, Nested" />
-    </listbox>
+    <vbox>
+        <listbox id="working-list" style="width:10em" 
+                 onselect="setFrame();" flex="1">
+          <listitem value="layout.xul"        label="Box Layout" selected="true" />
+          <listitem value="button.xul"        label="Buttons" />
+          <listitem value="checkbox.xul"      label="Checkboxes" />
+          <listitem value="colorpicker.xul"   label="Colorpickers, etc." />
+          <listitem value="cropping.xul"      label="Cropping" />
+          <listitem value="grid.xul"          label="Grids" />
+          <listitem value="image.xul"         label="Images" />
+          <listitem value="label.xul"         label="Labels" />
+          <listitem value="list.xul"          label="Lists" />
+          <listitem value="menubar.xul"       label="Menubars, etc." />
+          <listitem value="popup.xul"         label="Popups" />
+          <listitem value="progressmeter.xul" label="Progressmeters" />
+          <listitem value="radio.xul"         label="Radiobuttons" />
+          <listitem value="scrolling.xul"     label="Scrolling" />
+          <listitem value="splitter.xul"      label="Splitters" />
+          <listitem value="stack.xul"         label="Stacks and Decks" />
+          <listitem value="tab.xul"           label="Tabs" />
+          <listitem value="textbox.xul"       label="Textboxes" />
+          <listitem value="tree-simple.xul"   label="Trees, Simple" />
+          <listitem value="tree-nested.xul"   label="Trees, Nested" />
+        </listbox>
+        <button onclick="refreshSkins();">Refresh Skins</button>
+    </vbox>
 
     <splitter collapse="before" resizebefore="closest" resizeafter="grow">
      <grippy />
@@ -55,12 +64,11 @@ function setFrame()
       <tabs>
          <tab label="Examples" />
          <tab label="Source" />
-         <tab label="Change log" />
+         <tab label="Changelog" />
       </tabs>
       <tabpanels flex="1" >
          <iframe id="working-frame" type="content-primary" src="layout.xul" />
-         <iframe id="source-frame"  type="content-primary" 
-                                                       src="view-source:layout.xul"/>
+         <iframe id="source-frame"  type="content-primary" src="view-source:layout.xul"/>
          <iframe type="content-primary" src="ChangeLog.txt" />
       </tabpanels>
     </tabbox>
