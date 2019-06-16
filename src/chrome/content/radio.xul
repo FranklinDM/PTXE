@@ -22,18 +22,23 @@ function setText(textID,val)
 <hbox>
 
   <groupbox flex="1">
-    <caption label="states" />
-    <radiogroup flex="1">
+    <caption label="states"/>
+    <radiogroup>
        <description value="These show different states."/>
        <radio label="Selected" selected="true"
               oncommand="setText('state-text','Checked');" />
        <radio label="Normal"   
               oncommand="setText('state-text','Normal');" />
        <radio label="Disabled" disabled="true" 
-              ncommand="setText('state-text','Disabled');" />
-       <separator flex="1" />
-       <description id="state-text" value="(no input)" />
-     </radiogroup>
+              onclick="setText('state-text','Disabled');" />
+    </radiogroup>
+    <!-- You can't have two radio buttons set to selected, which is why the last radio button is in a separate radio group -->
+    <radiogroup flex="1">
+       <radio label="Selected Disabled" disabled="true" selected="true" 
+              onclick="setText('state-text','Selected Disabled');" />
+    </radiogroup>
+    <separator flex="1" />
+    <description id="state-text" value="(no input)" />
   </groupbox>
 
   <groupbox flex="1">
