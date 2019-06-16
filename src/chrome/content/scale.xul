@@ -15,20 +15,20 @@
                 <caption label="with different values" />
                 <vbox>
                     <label value="value - 0"/>
-                    <scale value="0" />
+                    <scale value="0" orient="horizontal" />
                     <label value="value - 50"/>
-                    <scale value="50" />
+                    <scale value="50" orient="horizontal" />
                     <label value="value - 100"/>
-                    <scale value="100" />
+                    <scale value="100" orient="horizontal" />
                 </vbox>
             </groupbox>
             <groupbox flex="1">
                 <caption label="states" />
                 <vbox>
                     <label value="Normal"/>
-                    <scale value="50" />
+                    <scale value="50" orient="horizontal" />
                     <label value="Disabled"/>
-                    <scale value="50" disabled="true" />
+                    <scale value="50" disabled="true" orient="horizontal" />
                 </vbox>
             </groupbox>
             <groupbox flex="1">
