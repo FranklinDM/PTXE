@@ -74,7 +74,9 @@ function setText(textID,val)
     <checkbox  flex="1" label="Normal"   
                       oncommand="setText('state-text','Normal');" />
     <checkbox  flex="1" label="Disabled" disabled="true" 
-                      oncommand="setText('state-text','Disabled');" />
+                      onclick="setText('state-text','Disabled');" />
+    <checkbox  flex="1" label="Checked Disabled" checked="true" disabled="true" 
+                      onclick="setText('state-text','Checked Disabled');" />
     <separator flex="1" />
     <description  id="state-text" value="(no input)" />
   </vbox>
