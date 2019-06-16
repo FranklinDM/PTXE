@@ -45,6 +45,7 @@ function refreshSkins()
           <listitem value="popup.xul"         label="Popups" />
           <listitem value="progressmeter.xul" label="Progressmeters" />
           <listitem value="radio.xul"         label="Radiobuttons" />
+          <listitem value="scale.xul"         label="Scales" />
           <listitem value="scrolling.xul"     label="Scrolling" />
           <listitem value="splitter.xul"      label="Splitters" />
           <listitem value="stack.xul"         label="Stacks and Decks" />

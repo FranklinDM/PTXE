@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<window title="XUL Scales"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <description>
+        <html:h1>XUL Scales</html:h1>
+    </description>
+
+    <vbox flex="1" style="overflow: auto">
+        <vbox>
+            <groupbox flex="1">
+                <caption label="with different values" />
+                <vbox>
+                    <label value="value - 0"/>
+                    <scale value="0" />
+                    <label value="value - 50"/>
+                    <scale value="50" />
+                    <label value="value - 100"/>
+                    <scale value="100" />
+                </vbox>
+            </groupbox>
+            <groupbox flex="1">
+                <caption label="states" />
+                <vbox>
+                    <label value="Normal"/>
+                    <scale value="50" />
+                    <label value="Disabled"/>
+                    <scale value="50" disabled="true" />
+                </vbox>
+            </groupbox>
+            <groupbox flex="1">
+                <caption label="orient" />
+                <vbox>
+                    <label value="Horizontal"/>
+                    <scale value="50" orient="horizontal" />
+                    <label value="Vertical"/>
+                    <scale value="50" orient="vertical" />
+                </vbox>
+            </groupbox>
+        </vbox>
+    </vbox>
+
+</window>
