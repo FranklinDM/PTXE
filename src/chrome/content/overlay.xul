@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://periodictable/skin/overlay.css" type="text/css"?>
+
 <overlay id="xpt-browser-overlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <commandset>
@@ -11,7 +13,6 @@
         <toolbarbutton class="toolbarbutton-1 chromeclass-toolbar-additional"
                        id="xpt-toolbar-button"
                        label="XUL Periodic Table"
-                       style="list-style-image: url('images/toolbar-icon.svg');"
                        command="xpt_openwindow"/>
     </toolbarpalette>
     <!-- Tools Menu: Menu Item -->
