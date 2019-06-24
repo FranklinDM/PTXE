@@ -54,7 +54,7 @@ function refreshSkins()
           <listitem value="tree-simple.xul"   label="Trees, Simple" />
           <listitem value="tree-nested.xul"   label="Trees, Nested" />
         </listbox>
-        <button onclick="refreshSkins();">Refresh Skins</button>
+        <button onclick="refreshSkins();" label="Refresh Skins" />
     </vbox>
 
     <splitter collapse="before" resizebefore="closest" resizeafter="grow">
