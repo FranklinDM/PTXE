@@ -1,6 +1,12 @@
-15 June 2019
+05 July 2019
 
-Added a "Refresh Skins" button to main page
+Added a scale widget example (I recently found out that we actually have this control)
+Added checked disabled state to radio buttons example
+Added checked disabled state to checkbox example
+
+Fix disabled state not being reported in a few examples
+
+Extension: apply overlay style using the chrome manifest instead of doing it inline
 
 ---------------------------------
 
