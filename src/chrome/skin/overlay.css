@@ -8,7 +8,6 @@
   list-style-image: url("chrome://periodictable/skin/toolbar-icon.svg");
 }
 
-toolbar[iconsize="small"] #xpt-toolbar-button .toolbarbutton-icon {
-  width: 16px;
-  height: 16px;
+toolbar[iconsize="small"] #xpt-toolbar-button {
+  list-style-image: url("chrome://periodictable/skin/toolbar-icon-small.svg");
 }
