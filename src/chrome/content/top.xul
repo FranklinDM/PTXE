@@ -19,12 +19,6 @@ function setFrame()
   document.getElementById("source-frame").setAttribute("src", newSrc);
 }
 
-function refreshSkins()
-{
-  Components.classes["@mozilla.org/chrome/chrome-registry;1"].getService(
-    Components.interfaces.nsIXULChromeRegistry).refreshSkins();
-}
-
 ]]>
 </script>
 
@@ -54,7 +48,6 @@ function refreshSkins()
           <listitem value="tree-simple.xul"   label="Trees, Simple" />
           <listitem value="tree-nested.xul"   label="Trees, Nested" />
         </listbox>
-        <button onclick="refreshSkins();" label="Refresh Skins" />
     </vbox>
 
     <splitter collapse="before" resizebefore="closest" resizeafter="grow">
