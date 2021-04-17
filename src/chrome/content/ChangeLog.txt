@@ -1,3 +1,9 @@
+17 April 2021
+
+Added a resizer widget example
+
+---------------------------------
+
 05 July 2019
 
 Added a scale widget example (I recently found out that we actually have this control)
