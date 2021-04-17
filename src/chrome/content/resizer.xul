@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml-stylesheet href="chrome://global/skin" type="text/css"?>
+
+<window title="XUL Scales"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <description>
+        <html:h1>XUL Resizer</html:h1>
+    </description>
+
+    <vbox flex="1" style="overflow: auto">
+        <vbox>
+            <groupbox flex="1">
+                <caption label="Resizing an element" />
+                <stack style="border: 1px solid black;">
+                    <button id="button" label="Resizable" left="18" top="18" right="18" bottom="18"/>
+                    <resizer dir="left" style="background: black; -moz-appearance: none;"
+                           element="button" left="0" top="0" width="16" height="16"/>
+                    <resizer dir="right" style="background: black; -moz-appearance: none;"
+                           element="button" right="0" top="0" width="16" height="16"/>
+                    <resizer dir="bottomleft" style="background: black; -moz-appearance: none;"
+                           element="button" left="0" bottom="0" width="16" height="16"/>
+                    <resizer dir="bottomright" style="background: black; -moz-appearance: none;"
+                           element="button" right="0" bottom="0" width="16" height="16"/>
+                </stack>
+            </groupbox>
+        </vbox>
+    </vbox>
+
+</window>
