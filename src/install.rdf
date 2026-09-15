@@ -3,7 +3,7 @@
     <Description about="urn:mozilla:install-manifest">
         <!-- General -->
         <em:id>xulperiodictable@franklindm</em:id>
-        <em:version>dev-build</em:version>
+        <em:version>1.2.3</em:version>
         <em:type>2</em:type>
         <em:homepageURL>https://franklindm.github.io/</em:homepageURL>
 
